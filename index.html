@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pranav Sreeram</title>
+  <meta name="description" content="MS Machine Learning student at Carnegie Mellon University interested in AI reasoning, oversight, and alignment.">
+  <style>
+    :root { --bg: #ffffff; --fg: #1a1a1a; --muted: #5c5c5c; --link: #0b5cd5; --rule: #e3e3e3; }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0d1117; --fg: #e6e6e6; --muted: #9aa0a6; --link: #6cb0ff; --rule: #262b33; }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    main { max-width: 680px; margin: 0 auto; padding: 56px 20px 72px; }
+    header { display: flex; align-items: center; gap: 24px; margin-bottom: 20px; }
+    .photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 1px solid var(--rule);
+    }
+    h1 { font-size: 2rem; margin: 0 0 4px; line-height: 1.2; }
+    .tagline { color: var(--muted); margin: 0 0 12px; }
+    h2 {
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 36px 0 10px;
+      padding-top: 20px;
+      border-top: 1px solid var(--rule);
+    }
+    p { margin: 0 0 12px; }
+    a { color: var(--link); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .links a { margin-right: 18px; }
+    .entry { margin-bottom: 18px; }
+    @media (max-width: 520px) {
+      header { flex-direction: column; align-items: flex-start; }
+      .photo { width: 120px; height: 120px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img class="photo" src="photo.jpg" alt="Photo of Pranav Sreeram" onerror="this.style.display='none'">
+      <div>
+        <h1>Pranav Sreeram</h1>
+        <p class="tagline">MS Machine Learning, Carnegie Mellon University</p>
+        <p class="links">
+          <a href="mailto:pranav.sreer@gmail.com">Email</a>
+          <a href="https://github.com/pranavsreeram">GitHub</a>
+        </p>
+      </div>
+    </header>
+
+    <h2>About</h2>
+    <p>
+      Hi, I'm Pranav! I'm a master's student at Carnegie Mellon studying machine learning, and I did my
+      undergrad in applied math and economics at UCLA.
+    </p>
+    <p>
+      My interests are in AI reasoning, oversight, and alignment, and I am currently evaluating how humans
+      interact with agents of increasing capabilities and the potential effects of that at various scales.
+      I'm always interested in learning more about these topics and others; feel free to reach out if you'd
+      like to discuss or collaborate!
+    </p>
+    <p>
+      In my free time I enjoy going on hikes, playing chess, and solving puzzles.
+    </p>
+
+    <h2>Current Research</h2>
+    <div class="entry">
+      <strong>LLM Proactivity and User Reliance.</strong>
+      With Grace Liu (PhD student) and advised by Professor Aarti Singh in the CMU Machine Learning
+      Department, I'm working on benchmarking proactive behavior in LLM chatbots and agents, and identifying
+      potential cases of misalignment with user goals through cognitive offloading.
+    </div>
+
+    <h2>Industry Experience</h2>
+    <div class="entry">
+      <strong>BlackRock, Aladdin Research (Summer 2026).</strong>
+      I built a multi-agent research pipeline to generate investment research insights from unstructured
+      data on the Aladdin platform. I then designed an LLM-as-judge evaluation framework to measure the
+      verifiability and validity of those insights based on the data.
+    </div>
+    <div class="entry">
+      <strong>Chicago Trading Company, Metals Desk (Summer 2025).</strong>
+      I spent the summer learning how to make markets in options and systematically adjust prices based on
+      new information. On the metals desk, I analyzed millions of trades to identify features predictive of
+      their profitability.
+    </div>
+  </main>
+</body>
+</html>
